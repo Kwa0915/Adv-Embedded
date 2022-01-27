@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Lab2_datapath_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Lab2_datapath_tb" />
+            <top_module name="glbl" />
+            <top_module name="lab2parts" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="85107083333fs"></ZoomStartTime>
+      <ZoomEndTime time="85163583334fs"></ZoomEndTime>
+      <Cursor1Time time="85118283000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/Lab2_datapath_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/ac_mclk" type="logic">
+      <obj_property name="ElementShortName">ac_mclk</obj_property>
+      <obj_property name="ObjectShortName">ac_mclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/ac_adc_sdata" type="logic">
+      <obj_property name="ElementShortName">ac_adc_sdata</obj_property>
+      <obj_property name="ObjectShortName">ac_adc_sdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/ac_dac_sdata" type="logic">
+      <obj_property name="ElementShortName">ac_dac_sdata</obj_property>
+      <obj_property name="ObjectShortName">ac_dac_sdata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/ac_bclk" type="logic">
+      <obj_property name="ElementShortName">ac_bclk</obj_property>
+      <obj_property name="ObjectShortName">ac_bclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/ac_lrclk" type="logic">
+      <obj_property name="ElementShortName">ac_lrclk</obj_property>
+      <obj_property name="ObjectShortName">ac_lrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/G" type="logic">
+      <obj_property name="ElementShortName">G</obj_property>
+      <obj_property name="ObjectShortName">G</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/L" type="logic">
+      <obj_property name="ElementShortName">L</obj_property>
+      <obj_property name="ObjectShortName">L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/Q_s" type="array">
+      <obj_property name="ElementShortName">Q_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/trigger_volt" type="array">
+      <obj_property name="ElementShortName">trigger_volt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">trigger_volt[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/tmds" type="array">
+      <obj_property name="ElementShortName">tmds[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tmds[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/tmdsb" type="array">
+      <obj_property name="ElementShortName">tmdsb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tmdsb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/sw" type="array">
+      <obj_property name="ElementShortName">sw[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/ch1_wave" type="logic">
+      <obj_property name="ElementShortName">ch1_wave</obj_property>
+      <obj_property name="ObjectShortName">ch1_wave</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/L_bus_out_s" type="array">
+      <obj_property name="ElementShortName">L_bus_out_s[17:0]</obj_property>
+      <obj_property name="ObjectShortName">L_bus_out_s[17:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/L_bus_out_unsigned" type="array">
+      <obj_property name="ElementShortName">L_bus_out_unsigned[17:0]</obj_property>
+      <obj_property name="ObjectShortName">L_bus_out_unsigned[17:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/Din_s" type="array">
+      <obj_property name="ElementShortName">Din_s[17:0]</obj_property>
+      <obj_property name="ObjectShortName">Din_s[17:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/readL" type="array">
+      <obj_property name="ElementShortName">readL[17:0]</obj_property>
+      <obj_property name="ObjectShortName">readL[17:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/readL_s" type="array">
+      <obj_property name="ElementShortName">readL_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">readL_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/WRADDR_s" type="array">
+      <obj_property name="ElementShortName">WRADDR_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">WRADDR_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/column" type="array">
+      <obj_property name="ElementShortName">column[9:0]</obj_property>
+      <obj_property name="ObjectShortName">column[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/wrENB_s" type="logic">
+      <obj_property name="ElementShortName">wrENB_s</obj_property>
+      <obj_property name="ObjectShortName">wrENB_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab2_datapath_tb/uut/ready_s" type="logic">
+      <obj_property name="ElementShortName">ready_s</obj_property>
+      <obj_property name="ObjectShortName">ready_s</obj_property>
+   </wvobject>
+</wave_config>
